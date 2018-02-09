@@ -78,6 +78,10 @@ module.exports = {
       {
         test: /\.pug$/,
         loader: 'pug'
+      },
+      {
+        test: /\.jade$/,
+        loader: 'jade'
       }
     ]
   },
